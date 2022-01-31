@@ -10,7 +10,7 @@ from TGNRobot import OWNER_ID
 from TGNRobot import telethn as tbot
 import os, re, csv, json, time, uuid, pytz
 from datetime import datetime
-from TGNRobot.modules.helper_funcs.chat_status import is_user_admin as is_admin
+from TGNRobot.function import is_admin
 from io import BytesIO
 import TGNRobot.modules.sql.feds_sql as sql
 from telethon import *
