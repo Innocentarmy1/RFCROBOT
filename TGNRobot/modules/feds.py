@@ -21,7 +21,7 @@ from TGNRobot import *
 from telethon.tl.functions.users import GetFullUserRequest
 from telethon.tl.types import MessageMediaDocument, DocumentAttributeFilename
 from TGNRobot.events import register
-CMD_HELP = "! \"
+CMD_HELP = "/"
 
 
 
