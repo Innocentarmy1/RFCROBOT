@@ -21,6 +21,7 @@ from TGNRobot import *
 from telethon.tl.functions.users import GetFullUserRequest
 from telethon.tl.types import MessageMediaDocument, DocumentAttributeFilename
 from TGNRobot.events import register
+from TGNRobot.events import callbackquery as CallbackQuery
 CMD_HELP = "/"
 
 
