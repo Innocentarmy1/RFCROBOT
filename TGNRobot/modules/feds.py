@@ -129,7 +129,7 @@ async def smexy(event):
             ],
         )
 
-@tbot.on(events.CallbackQuery(pattern=r"rmfed(\_(.*))"))
+@tbot.on(events.callbackquery(pattern=r"rmfed(\_(.*))"))
 async def delete_fed(event):
     tata = event.pattern_match.group(1)
     data = tata.decode()
@@ -137,7 +137,7 @@ async def delete_fed(event):
     delete = sql.del_fed(fed_id)
     await event.edit("You have deleted your federation! All chats linked to it are now federation-less.")
 
-@tbot.on(events.CallbackQuery(pattern=r"nada"))
+@tbot.on(events.callbackquery(pattern=r"nada"))
 async def delete_fed(event):
   await event.edit("Federation deletion canceled")
 
@@ -262,7 +262,7 @@ async def p(event):
 """
 HaritaRobot Features
 """
-@tbot.on(events.CallbackQuery(pattern=r"fkfed(\_(.*))"))
+@tbot.on(events.callbackquery(pattern=r"fkfed(\_(.*))"))
 async def smex_fed(event):
   tata = event.pattern_match.group(1)
   data = tata.decode()
@@ -282,7 +282,7 @@ async def smex_fed(event):
 """
 Fully Written by RoseLoverX
 """
-@tbot.on(events.CallbackQuery(pattern=r"smex(\_(.*))"))
+@tbot.on(events.callbackquery(pattern=r"smex(\_(.*))"))
 async def smex(event):
   tata = event.pattern_match.group(1)
   data = tata.decode()
@@ -381,7 +381,7 @@ async def info(event):
 
 
 
-@tbot.on(events.CallbackQuery(pattern=r"fedadm(\_(.*))"))
+@tbot.on(events.callbackquery(pattern=r"fedadm(\_(.*))"))
 async def smex_fed(event):
   if event.is_group:
     if not await is_admin(event, event.sender_id):
