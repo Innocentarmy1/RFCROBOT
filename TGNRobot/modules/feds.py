@@ -6,7 +6,7 @@
 #If you want to improve anything, then you can pull it or join @TheCodeTech.
 #No Copyright Allowed
 
-from TGNRobot import CMD_HELP, OWNER_ID
+from TGNRobot import OWNER_ID
 from TGNRobot import telethn as tbot
 import os, re, csv, json, time, uuid, pytz
 from datetime import datetime
@@ -21,6 +21,7 @@ from TGNRobot import *
 from telethon.tl.functions.users import GetFullUserRequest
 from telethon.tl.types import MessageMediaDocument, DocumentAttributeFilename
 from TGNRobot.events import register
+CMD_HELP = "! \"
 
 
 
