@@ -2,7 +2,7 @@ from telethon.tl import functions
 from telethon.tl import types
 from TGNRobot import telethn as tbot
 import TGNRobot.modules.sql.elevated_sql as sql
-from TGNRobot.modules.sql.chats_sql import add_chat, rmchat, is_chat, get_all_chat_id
+from TGNRobot.modules.sql_extended.night_mode_sql import add_chat, rmchat, is_chat, get_all_chat_id
 
 async def is_admin(event, user):
     try:
