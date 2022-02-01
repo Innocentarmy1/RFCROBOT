@@ -76,7 +76,7 @@
       },
       "MONGO_DB_URI": {
          "description": "Required for database connections.",
-         "required": true,https://telegra.ph/file/19798419a95cd778001c9.jpg
+         "required": true,
          "value": ""
       },
       "IBM_WATSON_CRED_URL": {
