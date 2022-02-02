@@ -62,4 +62,3 @@ def callbackquery(**args):
         return func
 
     return decorator
-
