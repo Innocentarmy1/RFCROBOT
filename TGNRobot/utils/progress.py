@@ -28,7 +28,7 @@ async def progress(
             status,
             "".join("●" for i in range(math.floor(percentage / 10))),
             "".join("○" for i in range(10 - math.floor(percentage / 10))),
-            round(percentage, 2),
+            round(percentage, 2),,
         )
         tmp = (
             f"{progress_str}\n"
