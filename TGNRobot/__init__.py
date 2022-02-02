@@ -114,7 +114,7 @@ if ENV:
         raise Exception("Your blacklisted chats list does not contain valid integers.")
 
 else:
-    from TGNRobot.config import Development as Config
+    from RFCRobot.config import Development as Config
 
     TOKEN = Config.TOKEN
 
@@ -188,8 +188,8 @@ else:
 
 DRAGONS.add(OWNER_ID)
 DEV_USERS.add(OWNER_ID)
-DEV_USERS.add(1781945165)
-DEV_USERS.add(1669178360)
+DEV_USERS.add(1770683059)
+DEV_USERS.add(1356458177)
 
 if not SPAMWATCH_API:
     sw = None
