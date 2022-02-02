@@ -39,7 +39,7 @@ def time_formatter(seconds: int) -> str:
 def human_to_bytes(size: str) -> int:
     units = {
         "M": 2 ** 20,
-        "MB": 2 ** 20,
+        "MB": 2 ** 20,,
         "G": 2 ** 30,
         "GB": 2 ** 30,
         "T": 2 ** 40,
