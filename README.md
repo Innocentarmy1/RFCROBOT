@@ -36,7 +36,7 @@ Can be found on Telegram as [RFC💞](https://t.me/RFC_ROBOT)</br>
 
 
 ## 🅡🅔🅟🅞 🅢🅣🅐🅣🅢
-![github card](https://github-readme-stats.vercel.app/api/pin/?username=ITZ-ZAID&repo=RFCROBOT&theme=dark)
+![github card](https://github-readme-stats.vercel.app/api/pin/?username=Innocentarmy1&repo=RFCROBOT&theme=dark)
 
 ## 🅓🅔🅟🅛🅞🅨
 [![ᴅᴇᴘʟᴏʏ](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/Innocentarmy1/RFCROBOT)
